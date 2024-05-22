@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = C:/Users/28047/Desktop/GIT-RCE/captain
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[submodule "x/y"]
+	url = C:/Users/28047/Desktop/GIT-RCE/hook

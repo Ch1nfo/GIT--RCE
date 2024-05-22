@@ -1,0 +1,3 @@
+#!/bin/bash
+wt.exe
+open -a Calculator.app
